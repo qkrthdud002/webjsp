@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+D:\2103박소영\웹프\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1712974059.index
+1629229485.index
+1814363989.index
+929257497.index
+833984310.index
+1455897058.index
+1866383250.index
+836695890.index

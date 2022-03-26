@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+두 개의 숫자를 넘겨서 사칙연산.
+<%
+	String n1 = request.getParameter("num1");
+	String n2 = request.getParameter("num2");
+	out.println("n1 = "+n1);
+	out.println("n2 = "+n2);
+	//null -> Integer.parseInt(n1);
+	// ->NumberFormatException 예외 생김.
+	
+	//n1의 값이 null일때랑 n2의 값이 null 일때는 계산을 못한다.
+	//n1의 값이 빈값 일때랑 n2의 값이 빈값 일때는 계산을 못한다.
+	if(n1 != null || !n1.equals("")){
+		out.println("더하기 = "+n1+n2);
+	}
+%>
+<form>
+	<input type="text" name="num1"/>
+	<input type="text" name="num2"/>
+	<input type="submit" value="확인"/>
+</form>
+</body>
+</html>
