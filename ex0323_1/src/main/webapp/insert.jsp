@@ -8,7 +8,7 @@
 <body>
 <form action="insertproc.jsp">
 	username<br>
-	<input type="text" name="username" placeholder="Username"/><br>
+	<input type="text" name="username" placeholder="Use rname"/><br>
 	password<br>
 	<input type="text" name="password" placeholder="Password"/><br>
 	남
