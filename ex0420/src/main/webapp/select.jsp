@@ -11,6 +11,7 @@
 <html>
 <head>
     <title>JSP - Hello World</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <%@ include file="head.jsp" %>

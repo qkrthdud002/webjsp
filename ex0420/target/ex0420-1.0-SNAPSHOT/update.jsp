@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Title</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <h1>update.jsp</h1>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="WebSubject:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7173ace5-4829-4e64-9444-fde02b58caaf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/WebSubject_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/WebSubject_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebSubject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/dgsw/websubject/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/hs/dgsw/websubject/MemberDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/insert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/update.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/homepage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/insert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/insertproc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/loginproc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/select.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/updateproc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/WEB-INF/classes/kr/hs/dgsw/websubject/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/WEB-INF/classes/kr/hs/dgsw/websubject/MemberDB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/css/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/css/insert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/css/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/css/update.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/homepage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/insert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/insertproc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/loginproc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/logout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/select.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/WebSubject-1.0-SNAPSHOT/updateproc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kr/hs/dgsw/websubject/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kr/hs/dgsw/websubject/MemberDB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/artifacts/board_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/artifacts/board_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/board.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/java/com/dg/board/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/board.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/css/board.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/nav.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/WEB-INF/classes/com/dg/board/HelloServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/board.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/css/board.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/nav.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/target/classes/com/dg/board/HelloServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex0420/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex0420/src/main/webapp/logout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0420/src/main/webapp/WEB-INF/logout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/logout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0420/src/main/webapp/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex0420/src/main/webapp/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0420/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex0420/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0420/src/main/webapp/insert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex0420/src/main/webapp/insert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0420/src/main/webapp/select.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex0420/src/main/webapp/select.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0420/src/main/webapp/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex0420/src/main/webapp/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0420/target/ex0420-1.0-SNAPSHOT/WEB-INF/logout.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0420/target/ex0420-1.0-SNAPSHOT/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex0420/target/ex0420-1.0-SNAPSHOT/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0420/target/ex0420-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex0420/target/ex0420-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0420/target/ex0420-1.0-SNAPSHOT/insert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex0420/target/ex0420-1.0-SNAPSHOT/insert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0420/target/ex0420-1.0-SNAPSHOT/select.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex0420/target/ex0420-1.0-SNAPSHOT/select.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex0420/target/ex0420-1.0-SNAPSHOT/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex0420/target/ex0420-1.0-SNAPSHOT/update.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="29KW0qod5uyoI82swuOxujSVO9P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2103박소영\웹프\WebSubject\src\main\webapp" />
+      <recent name="D:\2103박소영\웹프\WebSubject\src\main\java\kr\hs\dgsw\websubject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.59">
+    <configuration name="homepage.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/WebSubject_war_exploded/homepage.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.59" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.59" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="WebSubject:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/WebSubject_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="dcec91de-4936-4578-84a3-5cdfdabb1011" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="WebSubject:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.homepage.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7173ace5-4829-4e64-9444-fde02b58caaf" name="Changes" comment="" />
+      <created>1652862038811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652862038811</updated>
+      <workItem from="1652862040313" duration="46906000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

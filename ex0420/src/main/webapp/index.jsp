@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>JSP - Hello World</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <%@ include file="head.jsp" %>
@@ -11,19 +12,19 @@
         String username = (String)session.getAttribute("username");
         if(username == null){
     %>
-<!--로그인 화면 구성-->
-<form action="loginproc.jsp">
-    id<input name="username" type="text"/>
-    pw<input name="password" type="text"/>
-    <input type="submit" value="로그인"/>
-</form>
-<%
-    }else{
-%>
-<h1><%=username%>안녕하세요..</h1>
-<a href="logout.jsp">로그아웃</a>
-<%
-    }
-%>
+    <!--로그인 화면 구성-->
+    <form action="loginproc.jsp">
+        id<input name="username" type="text"/>
+        pw<input name="password" type="text"/>
+        <input type="submit" value="로그인"/>
+    </form>
+    <%
+        }else{
+    %>
+    <h1><%=username%>안녕하세요..</h1>
+    <a href="logout.jsp">로그아웃</a>
+    <%
+        }
+    %>
 </body>
 </html>

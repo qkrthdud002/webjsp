@@ -9,5 +9,5 @@
 <%
     //세션 내용 삭제
     session.invalidate();
-    response.sendRedirect("indext.jsp");
+    response.sendRedirect("insert.jsp");
 %>
