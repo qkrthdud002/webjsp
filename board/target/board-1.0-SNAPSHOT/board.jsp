@@ -7,7 +7,7 @@
 
     BoardManager bm = new BoardManager();
     List<Board> list = bm.doselect();
-    
+
 %>
 
 <!DOCTYPE html>
@@ -48,6 +48,11 @@
                 <% } %>
                 </tbody>
             </table>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a class="btn btn-primary" href="insert.jsp">글쓰기</a>
+            </div>
         </div>
     </div>
 </div>
