@@ -33,7 +33,7 @@
             <input class="form-control" type="text" name="name">
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col mt-3" >
                 <input class="btn btn-primary" type="submit" value="저장">
             </div>
         </div>

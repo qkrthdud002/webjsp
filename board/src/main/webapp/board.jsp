@@ -20,7 +20,7 @@
 <%@ include file="nav.jsp"%>
 <div class="container mt-3">
     <h1 class="bg-success text-white" id="myh1">
-        board.jsp
+        게시판
     </h1>
     <div class="row">
         <div class="col">

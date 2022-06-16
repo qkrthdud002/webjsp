@@ -110,5 +110,22 @@ public class BoardManager {
         return true;
     }
 
+    public void doupdate(Board board, int idx) throws Exception{
+        Connection con = null;
+        PreparedStatement pstmt = null;
+
+        try{
+            con = connect();
+            pstmt = con.prepareStatement("update board set title = ?, content = ?," +
+                    " name = ? where idx = ?");
+            pstmt.setString(1,board.getTitle());
+            pstmt.setString(2,board.getContent());
+            pstmt.setString(3,board.getName());
+            pstmt.setInt(4, idx);
+            pstmt.executeUpdate();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
 
 }

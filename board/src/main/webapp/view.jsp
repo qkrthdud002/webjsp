@@ -33,8 +33,8 @@
     </div>
     <div class="row mb-3">
         <div class="col mt-3">
-            <a class="btn btn-primary" href="#">글수정</a>
-            <a class="btn btn-primary" href="delete.jsp?idx=<%=idx%>">글삭제</a>
+            <a class="btn btn-primary" href="update.jsp?idx=<%=idx%>">글수정</a>
+            <a class="btn btn-primary" href="delete.jsp?idx=<%=board.getIdx()%>">글삭제</a>
         </div>
     </div>
     </div>
