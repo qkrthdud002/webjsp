@@ -3,3 +3,40 @@
 *{
     font-family: 'Do Hyeon', sans-serif;
 }
+
+.boardBar{
+    /*display: block;*/
+    background-color: #cdbfec;
+    color : white;
+    text-align: center;
+}
+
+.tableTop{
+    background-color: #dbd3ea;
+    color : mediumpurple;
+}
+
+.tableTitle{
+    background-color: #e9e5f3;
+}
+
+.boardTop{
+    border-top: 2px solid black;
+    color : black;
+}
+
+.btn{
+    width: 150px;
+    margin: auto;
+    display: block;
+    color: white;
+    background-color : #cdbfec;
+    border-color: #e9e5f3;
+    text-align: center;
+    font-size: large;
+
+}
+
+.col{
+    color:rebeccapurple;
+}

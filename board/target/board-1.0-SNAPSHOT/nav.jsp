@@ -1,19 +1,30 @@
 <%@ page import="java.util.Scanner" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<nav class="navbar navbar-expand-lg bg-light">
+
+<head>
+    <title>Title</title>
+<%--    <link href="css/update.css" rel="stylesheet">--%>
+    <%@include file="head.jsp"%>
+</head>
+
+<nav class="navbar">
     <div class="container-fluid">
         <a class="navbar-brand" href="/index.jsp">HOME</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">MENU</span>
+        <button class="navbar-toggler" style="width: 100px;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler">더보기</span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<%--            <form action="" class="d-flex" role="search">--%>
+<%--                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" value="">--%>
+<%--                <button class="search btn" type="submit" name="" value="">Search</button>--%>
+<%--            </form>--%>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="board.jsp">board</a>
                 </li>
-<%--                <li class="nav-item">--%>
-<%--                    <a class="nav-link" href="#">Link</a>--%>
-<%--                </li>--%>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.jsp">Link</a>
+                </li>
 <%--                <li class="nav-item dropdown">--%>
 <%--                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">--%>
 <%--                        Dropdown--%>
@@ -29,10 +40,6 @@
 <%--                    <a class="nav-link disabled">Disabled</a>--%>
 <%--                </li>--%>
             </ul>
-<%--            <form action="https://www.google.com" class="d-flex" role="search">--%>
-<%--                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">--%>
-<%--                <button class="btn btn-outline-success" type="submit" name="query" value="">Search</button>--%>
-<%--            </form>--%>
         </div>
     </div>
 </nav>

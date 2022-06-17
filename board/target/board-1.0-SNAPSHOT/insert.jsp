@@ -14,27 +14,28 @@
 <html>
 <head>
     <title>Title</title>
+    <link href="css/insert.css" rel="stylesheet">
     <%@include file="head.jsp"%>
 </head>
 <body>
 <%@ include file="nav.jsp"%>
 <div class="container mt-3">
     <form action="insertproc.jsp">
-    <h1 class="bg-success text-white" id="myh1">
-        insert.jsp
+    <h1 class="boardBar" id="myh1">
+        글쓰기
     </h1>
     <div class="row">
         <div class="col">
             제목
-            <input class="form-control" type="text" name="title">
+            <input class="form-control mb-2" type="text" name="title">
             내용
-            <textarea class="form-control" rows="15" name="content"></textarea>
+            <textarea class="form-control mb-2" rows="15" name="content"></textarea>
             작성자
             <input class="form-control" type="text" name="name">
         </div>
         <div class="row">
             <div class="col mt-3" >
-                <input class="btn btn-primary" type="submit" value="저장">
+                <input class="btn" type="submit" value="저장">
             </div>
         </div>
     </div>

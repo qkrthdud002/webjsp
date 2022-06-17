@@ -15,12 +15,13 @@
 <body>
 <%@ include file="nav.jsp"%>
 <div class="container mt-3">
-    <h1 class="bg-success text-white" id="myh1">
-        index.jsp
+    <h1 class="boardBar" id="myh1">
+        HOME
     </h1>
-    <button id="mybtn">mybtn</button>
+<%--    <button id="mybtn"></button>--%>
     <div id="mys">
-        <h1>슬라이드...</h1>
+        <h1>게시판</h1>
+        <img src="">
     </div>
 </div>
 <br/>

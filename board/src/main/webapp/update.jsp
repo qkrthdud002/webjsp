@@ -11,12 +11,15 @@
 <html>
 <head>
     <title>Title</title>
+    <link href="css/update.css" rel="stylesheet">
     <%@include file="head.jsp"%>
 </head>
 <body>
 <%@include file="nav.jsp"%>
-<div class="container" >
-    <h1>수정하기</h1>
+<div class="container mt-3">
+    <h1 class="boardBar">
+        수정하기
+    </h1>
     <form action="updateproc.jsp">
         <input type="hidden" value="<%=idx%>" name="idx">
         제목
@@ -26,7 +29,7 @@
         작성자
         <input class="form-control p-3 mb-3" type="text" name="name" placeholder="name" value="<%=board.getName()%>" />
         <div class="col" style="padding: 0px;">
-            <input class="btn-view btn btn-primary" type="submit" value="저장">
+            <input class="btn-view btn" type="submit" value="저장">
         </div>
     </form>
 </div>

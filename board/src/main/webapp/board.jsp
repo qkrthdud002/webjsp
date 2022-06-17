@@ -14,19 +14,20 @@
 <html>
 <head>
     <title>Title</title>
+    <link href="css/board.css" rel="stylesheet">
     <%@include file="head.jsp"%>
 </head>
 <body>
 <%@ include file="nav.jsp"%>
 <div class="container mt-3">
-    <h1 class="bg-success text-white" id="myh1">
+    <h1 class="boardBar" id="myh1">
         게시판
     </h1>
     <div class="row">
         <div class="col">
             <table class="table table-hover">
-                <thead>
-                <tr class="table-primary">
+                <thead class="tableTop">
+                <tr class="boardTop">
                     <th scope="col">순번</th>
                     <th scope="col">제목</th>
                     <th scope="col">작성자</th>
@@ -38,7 +39,7 @@
                 <% for(int i=0; i<list.size(); i++) {
                     Board board = list.get(i);
                 %>
-                <tr>
+                <tr class="tableTitle">
                     <th scope="row"><%=board.getIdx()%></th>
                     <td><a href="view.jsp?idx=<%=board.getIdx()%>"><%=board.getTitle()%></a></td>
                     <td><%=board.getName()%></td>
@@ -51,7 +52,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <a class="btn btn-primary" href="insert.jsp">글쓰기</a>
+                <a class="btn" href="insert.jsp">글쓰기</a>
             </div>
         </div>
     </div>
