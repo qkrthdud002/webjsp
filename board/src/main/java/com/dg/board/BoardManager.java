@@ -128,4 +128,22 @@ public class BoardManager {
         }
     }
 
+//    public List<Board> doSearch(Board board) throws Exception{
+//        Connection con = null;
+//        PreparedStatement pstmt = null;
+//
+//        try{
+//            con = connect();
+//            pstmt = con.prepareStatement("select count(idx) as count from board where "
+//                    + board.getSearchWord()+ "like ?");
+//            pstmt.setString(1, board.getTitle());
+//            pstmt.setString(2, board.getName());
+////            pstmt.setInt(3, idx);
+//            pstmt.executeUpdate();
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+//        return null;
+//    }
+
 }

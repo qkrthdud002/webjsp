@@ -2,6 +2,10 @@
     border-color: rebeccapurple;
 }
 
+.border{
+    border-radius: 5px;
+}
+
 .col{
     font-size: x-large;
 }

@@ -19,7 +19,7 @@
 <body>
 <%@ include file="nav.jsp"%>
 <div class="container mt-3">
-    <h1 class="boardBar" id="myh1">
+    <h1 class="boardBar" style="border-radius: 5px;" id="myh1">
         글 작성
     </h1>
     <div class="row">

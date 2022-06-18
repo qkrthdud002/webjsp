@@ -1,5 +1,12 @@
 <%@ page import="java.util.Scanner" %>
+<%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<%--<%--%>
+<%--    BoardManager bm = new BoardManager();--%>
+<%--    List<Board> list = bm.doSearch(board);--%>
+
+<%--%>--%>
 
 <head>
     <title>Title</title>
@@ -14,10 +21,10 @@
             <span class="navbar-toggler">더보기</span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-<%--            <form action="" class="d-flex" role="search">--%>
-<%--                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" value="">--%>
-<%--                <button class="search btn" type="submit" name="" value="">Search</button>--%>
-<%--            </form>--%>
+            <form method="post" action="navproc.jsp" class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" value="">
+                <button class="search btn" type="submit" name="" value="">Search</button>
+            </form>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="board.jsp">board</a>

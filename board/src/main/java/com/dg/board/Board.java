@@ -13,7 +13,8 @@ public class Board {
     @Override
     public String toString() {
         return "Board{" +
-                "idx=" + idx +
+                "searchWord" + searchWord +
+                ",idx=" + idx +
                 ", title='" + title + '\'' +
                 ", content='" + content + '\'' +
                 ", name='" + name + '\'' +
@@ -24,7 +25,8 @@ public class Board {
                 '}';
     }
 
-    public Board(int idx, String title, String content, String name, String wdate, int count, String phone, String email) {
+    public Board(String searchWord, int idx, String title, String content, String name, String wdate, int count, String phone, String email) {
+        this.searchWord = searchWord;
         this.idx = idx;
         this.title = title;
         this.content = content;
@@ -33,6 +35,14 @@ public class Board {
         this.count = count;
         this.phone = phone;
         this.email = email;
+    }
+
+    public String getSearchWord() {
+        return searchWord;
+    }
+
+    public void setSearchWord(String searchWord) {
+        this.searchWord = searchWord;
     }
 
     public int getIdx() {
@@ -99,6 +109,7 @@ public class Board {
         this.email = email;
     }
 
+    private String searchWord;
     private int idx;
     private String title;
     private String content;

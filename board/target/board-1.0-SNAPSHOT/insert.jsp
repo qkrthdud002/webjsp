@@ -21,7 +21,7 @@
 <%@ include file="nav.jsp"%>
 <div class="container mt-3">
     <form action="insertproc.jsp">
-    <h1 class="boardBar" id="myh1">
+    <h1 class="boardBar" style="border-radius: 5px;" id="myh1">
         글쓰기
     </h1>
     <div class="row">
