@@ -17,10 +17,10 @@
 <body>
 <%@include file="nav.jsp"%>
 <div class="container mt-3">
-    <h1 class="boardBar">
+    <h1 class="boardBar" style="border-radius: 5px;">
         수정하기
     </h1>
-    <form action="updateproc.jsp">
+    <form action="updateproc.jsp" style="font-size: x-large;" >
         <input type="hidden" value="<%=idx%>" name="idx">
         제목
         <input class="form-control p-3 mb-3" type="text" name="title" placeholder="title" value="<%=board.getTitle()%>"/>

@@ -18,10 +18,15 @@
     <h1 class="boardBar" id="myh1">
         HOME
     </h1>
-<%--    <button id="mybtn"></button>--%>
+    <br>
     <div id="mys">
-        <h1>게시판</h1>
-        <img src="">
+        <h3 class="homeTitle">게시판 사용법</h3>
+        <p align = "middle">
+        <iframe style="width : 1116px; height : 600px; "
+                src="https://www.youtube.com/embed/qhVQChz7dzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+        </p>
     </div>
 </div>
 <br/>

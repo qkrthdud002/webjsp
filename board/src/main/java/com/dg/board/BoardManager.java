@@ -10,6 +10,8 @@ import java.util.List;
 
 public class BoardManager {
 
+    private int count;
+
     public Connection connect() throws Exception {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3307/b-21", "root", "1234");
@@ -87,6 +89,23 @@ public class BoardManager {
                 board.setWdate(rs.getString("wdate"));
                 board.setPhone(rs.getString("phone"));
             }
+
+            // 조회수 기능
+//            String getReadCountSql = "select readcount from board where no = ?";
+//            pstmt=con.prepareStatement(getReadCountSql);
+//            pstmt.setInt(1, idx);
+//            rs=pstmt.executeQuery();
+//            if(rs.next()) {
+//                count = rs.getInt(1);
+//                count++;
+//            }
+//
+//            String sql = "update board set readcount = ? where no = ?";
+//            pstmt=con.prepareStatement(sql);
+//            pstmt.setInt(1, count);
+//            pstmt.setInt(2, idx);
+//            pstmt.executeUpdate();
+//            con.close();
         }catch (Exception e){
             e.printStackTrace();
         }finally {

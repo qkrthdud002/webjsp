@@ -20,7 +20,7 @@
 <%@ include file="nav.jsp"%>
 <div class="container mt-3">
     <h1 class="boardBar" style="border-radius: 5px;" id="myh1">
-        글 작성
+        게시글
     </h1>
     <div class="row">
         <div class="col">

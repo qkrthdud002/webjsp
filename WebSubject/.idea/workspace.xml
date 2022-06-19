@@ -10,11 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7173ace5-4829-4e64-9444-fde02b58caaf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/board.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/board.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/css/board.css" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/css/board.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/board.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/board.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/css/board.css" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/css/board.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/2103박소영 게시판.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/java/com/dg/board/BoardManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/java/com/dg/board/BoardManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/WEB-INF/classes/com/dg/board/BoardManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/WEB-INF/classes/com/dg/board/BoardManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/nav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/target/classes/com/dg/board/BoardManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/classes/com/dg/board/BoardManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652862038811</updated>
       <workItem from="1652862040313" duration="46906000" />
-      <workItem from="1655377931391" duration="733000" />
+      <workItem from="1655377931391" duration="2852000" />
     </task>
     <servers />
   </component>
