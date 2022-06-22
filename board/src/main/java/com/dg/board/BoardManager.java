@@ -19,16 +19,18 @@ public class BoardManager {
     }
 
     //1개 사용 위치
-    public List<Board> doselect(){
+    public List<Board> doselect(String setext){
         List<Board> list = new ArrayList<>();
         Connection con = null;
         PreparedStatement pstmt = null;
         ResultSet rs = null;
         try{
+            System.out.println("setext = "+setext);
             con = connect();
-            pstmt = con.prepareStatement("select * from board order by idx desc");
+            pstmt = con.prepareStatement("select * from board where name like '%"+setext+"%' order by idx desc");
             rs = pstmt.executeQuery();
             while(rs.next()){
+                System.out.println("추가됨");
                 Board board = new Board();
                 board.setIdx(rs.getInt("idx"));
                 board.setContent(rs.getString("content"));
@@ -40,6 +42,7 @@ public class BoardManager {
                 board.setPhone(rs.getString("phone"));
                 list.add(board);
             }
+            System.out.println(list);
             return list;
         }catch (Exception e){
             e.printStackTrace();

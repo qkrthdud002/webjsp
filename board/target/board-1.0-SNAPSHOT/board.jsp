@@ -4,9 +4,14 @@
 <%@ page import="java.util.List" %>
 
 <%
+    String DB_URL = "jdbc:mysql://localhost:3306/123?autoReconnect=true&useUnicode=true&characterEncoding=euc-kr";
+    String setext = request.getParameter("setext");
+    if(setext == null){
+        setext ="";
+    }
 
     BoardManager bm = new BoardManager();
-    List<Board> list = bm.doselect();
+    List<Board> list = bm.doselect(setext);
 
 %>
 
@@ -15,10 +20,10 @@
 <head>
     <title>Title</title>
     <link href="css/board.css" rel="stylesheet">
-    <%@include file="head.jsp"%>
+    <%@include file="boardhead.jsp"%>
 </head>
 <body>
-<%@ include file="nav.jsp"%>
+<%@ include file="boardnav.jsp"%>
 <div class="container mt-3">
     <h1 class="boardBar" id="myh1">
         게시판
@@ -41,7 +46,7 @@
                 %>
                 <tr class="tableTitle">
                     <th scope="row"><%=board.getIdx()%></th>
-                    <td><a href="view.jsp?idx=<%=board.getIdx()%>"><%=board.getTitle()%></a></td>
+                    <td><a href="boardview.jsp?idx=<%=board.getIdx()%>"><%=board.getTitle()%></a></td>
                     <td><%=board.getName()%></td>
                     <td><%=board.getWdate()%></td>
                     <td><%=board.getCount()%></td>
@@ -52,7 +57,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <a class="btn" href="insert.jsp">글쓰기</a>
+                <a class="btn" href="boardinsert.jsp">글쓰기</a>
             </div>
         </div>
     </div>

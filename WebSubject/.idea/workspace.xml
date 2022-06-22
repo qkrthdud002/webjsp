@@ -10,17 +10,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7173ace5-4829-4e64-9444-fde02b58caaf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../board/2103박소영 게시판.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/java/websubject/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/java/websubject/MemberDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/boarddelete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/boardindex.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/boardinsert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/boardinsertproc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/boardupdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/boardupdateproc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/css/boardIndex.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/css/boardInsert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/css/boardUpdate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/css/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/css/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/homepage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/loginproc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/logout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../board/src/main/webapp/select.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../board/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/2103박소영 게시판.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../board/2103박소영 게시판.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../board/src/main/java/com/dg/board/BoardManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/java/com/dg/board/BoardManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/board.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/board.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/css/insert.css" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/css/insert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/css/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/css/boardNav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/css/update.css" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/css/update.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/css/view.css" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/css/boardView.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/boardhead.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/insert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/insert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/insertproc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/insertproc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/boardnav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/navproc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/boardnavproc.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/WEB-INF/classes/com/dg/board/BoardManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/WEB-INF/classes/com/dg/board/BoardManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/nav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/updateproc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/updateproc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/src/main/webapp/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/src/main/webapp/boardview.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/css/insert.css" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/css/insert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/css/nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/css/update.css" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/css/update.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/css/view.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/insert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/insert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/nav.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../board/target/classes/com/dg/board/BoardManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../board/target/classes/com/dg/board/BoardManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../board/target/board-1.0-SNAPSHOT/view.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +101,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../역사/chosun-community-server(HistorySubject)" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -135,6 +172,8 @@
       <updated>1652862038811</updated>
       <workItem from="1652862040313" duration="46906000" />
       <workItem from="1655377931391" duration="2852000" />
+      <workItem from="1655693134928" duration="23000" />
+      <workItem from="1655816832392" duration="1395000" />
     </task>
     <servers />
   </component>

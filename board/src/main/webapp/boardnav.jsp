@@ -10,19 +10,19 @@
 
 <head>
     <title>Title</title>
-<%--    <link href="css/update.css" rel="stylesheet">--%>
-    <%@include file="head.jsp"%>
+<%--    <link href="css/boardUpdate.css" rel="stylesheet">--%>
+    <%@include file="boardhead.jsp"%>
 </head>
 
 <nav class="navbar">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/index.jsp">HOME</a>
+        <a class="navbar-brand" href="/boardindex.jsp">HOME</a>
         <button class="navbar-toggler" style="width: 100px;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler">더보기</span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <form method="post" action="navproc.jsp" class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" value="">
+            <form method="post" action="board.jsp" class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" value="" name="setext">
                 <button class="search btn" type="submit" name="" value="">Search</button>
             </form>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">

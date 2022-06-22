@@ -1,24 +1,21 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="com.dg.board.Board"%>
-<%@ page import="com.dg.board.BoardManager"%>
-
+<%@ page import="websubject.MemberDB" %>
 <%
+    String id = request.getParameter("id");
+    String username = request.getParameter("username");
+    String password = request.getParameter("password");
+    String gender = request.getParameter("gender");
 
-    String title = request.getParameter("title");
-    String content = request.getParameter("content");
-    String name = request.getParameter("name");
-    String idx = request.getParameter("idx");
+    MemberDB md = new MemberDB();
+    md.doupdate(username,password,gender,id);
 
-    Board board = new Board();
-    board.setTitle(title);
-    board.setName(name);
-    board.setContent(content);
-
-    BoardManager bm = new BoardManager();
-    bm.doupdate(board, Integer.parseInt(idx));
-
-
-    response.sendRedirect("board.jsp");
-
-
+    response.sendRedirect("select.jsp");
 %>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+a {
+    -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    display: block;
+    margin: 20px auto;
+    /*max-width: 180px;*/
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+hr{
+    color: rgba(30, 22, 54, 0.6);
+}
+
+.allClass{
+    display: flex;
+}
+
+a.select {
+    font-size: large; font-weight : bold;
+    padding-top: 15px;
+    color: rgba(30, 22, 54, 0.6);
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+a.select:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+
+a.insert {
+    font-size: large; font-weight : bold;
+    padding-top: 15px;
+    color: rgba(30, 22, 54, 0.6);
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+a.insert:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+
+a.logout {
+    font-size: large; font-weight : bold;
+    padding-top: 15px;
+    color: rgba(30, 22, 54, 0.6);
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+a.logout:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+
+input.selectBtn {
+    -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+    display: block;
+    /*margin: 20px auto;*/
+    /*max-width: 180px;*/
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 880px;
+    font-size: large; font-weight : bold;
+    text-align: center;
+    margin-top: 25px;
+    color: rgba(30, 22, 54, 0.6);
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+input.selectBtn:hover {
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+}
+
+table {
+    /*margin-right: 50px;*/
+    /*width:70%;*/
+    margin-left:15%;
+    margin-right:15%;
+    border-collapse : collapse;
+    border : 2px solid rgba(30, 22, 54, 0.6);
+}
+
+td{
+    margin-left:15%;
+    margin-right:15%;
+    border-collapse : collapse;
+    border : 1px solid rgba(30, 22, 54, 0.6);
+}
+
+.checkBox{
+    width: 15px;
+}
+
+th.num{
+    width: 50px;
+}
+
+td, th{
+    text-align: center;
+    width: 50px;
+}
+

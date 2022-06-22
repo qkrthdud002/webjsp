@@ -13,11 +13,11 @@
 <html>
 <head>
     <title>Title</title>
-    <link href="css/view.css" rel="stylesheet">
-    <%@include file="head.jsp"%>
+    <link href="css/boardView.css" rel="stylesheet">
+    <%@include file="boardhead.jsp"%>
 </head>
 <body>
-<%@ include file="nav.jsp"%>
+<%@ include file="boardnav.jsp"%>
 <div class="container mt-3">
     <h1 class="boardBar" style="border-radius: 5px;" id="myh1">
         게시글
@@ -34,10 +34,10 @@
     </div>
     <div class="row1 mb-3">
         <div class="col1 mt-3">
-            <a class="btn Update" href="update.jsp?idx=<%=idx%>">글수정</a>
+            <a class="btn Update" href="boardupdate.jsp?idx=<%=idx%>">글수정</a>
         </div>
             <div class="col2 mt-3">
-            <a class="btn Delete" href="delete.jsp?idx=<%=board.getIdx()%>">글삭제</a>
+            <a class="btn Delete" href="boarddelete.jsp?idx=<%=board.getIdx()%>">글삭제</a>
             </div>
     </div>
     </div>

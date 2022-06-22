@@ -18,7 +18,7 @@
 <%--    bm.doSearch(board);--%>
 
 
-<%--    response.sendRedirect("view.jsp"); //board.jsp--%>
+<%--    response.sendRedirect("boardview.jsp"); //board.jsp--%>
 
 
 <%--%>--%>
