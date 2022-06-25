@@ -27,7 +27,13 @@
             </form>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="board.jsp">board</a>
+                    <a class="nav-link active" aria-current="page" href="board.jsp">게시판</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="insert.jsp">insert</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="select.jsp">select</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.w3schools.com/">More WebStudy</a>

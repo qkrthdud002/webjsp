@@ -10,7 +10,7 @@
     if(loginck){
         System.out.println("성공");
         session.setAttribute("username", username);
-        response.sendRedirect("login.jsp");
+        response.sendRedirect("boardindex.jsp");
     }
     else{
         out.println("실패");

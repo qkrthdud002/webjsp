@@ -3,18 +3,21 @@
 <head>
     <title>Update</title>
     <link href="css/update.css" rel="stylesheet">
-    <link href="css/homepage.css" rel="stylesheet">
+<%--    <link href="css/homepage.css" rel="stylesheet">--%>
+    <link href="css/boardNav.css" rel="stylesheet">
+    <link href="css/board.css" rel="stylesheet">
 </head>
 <body>
+<%@ include file="boardnav.jsp"%>
 <%--<h1>update.jsp</h1>--%>
 <div class="allClass">
     <%--    <a class="index" href="index.jsp">index</a>--%>
 
-    <a class="select" href="select.jsp" style="height: 38px;">select</a>
+<%--    <a class="select" href="select.jsp" style="height: 38px;">select</a>--%>
 
-    <a class="insert" href="insert.jsp" style="height: 38px;">insert</a>
+<%--    <a class="insert" href="insert.jsp" style="height: 38px;">insert</a>--%>
 
-    <a class="logout" href="logout.jsp" style="height: 38px;">logout</a>
+<%--    <a class="logout" href="logout.jsp" style="height: 38px;">logout</a>--%>
 
 </div>
 <br>

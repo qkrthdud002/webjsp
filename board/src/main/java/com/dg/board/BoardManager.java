@@ -30,7 +30,6 @@ public class BoardManager {
             pstmt = con.prepareStatement("select * from board where name like '%"+setext+"%' order by idx desc");
             rs = pstmt.executeQuery();
             while(rs.next()){
-                System.out.println("추가됨");
                 Board board = new Board();
                 board.setIdx(rs.getInt("idx"));
                 board.setContent(rs.getString("content"));
@@ -51,6 +50,56 @@ public class BoardManager {
         }
         return null;
     }
+
+//    public static class DBManager {
+//        private static String classname = "com.mysql.cj.jdbc.Driver";
+//        private static String url = "jdbc:mysql://localhost:3306/aaa";
+//        private static String user = "root";
+//        private static String pw = "1234";
+//
+//        public static Connection connect() throws Exception{
+//            Class.forName(classname);
+//            Connection con = DriverManager.getConnection(url,user,pw);
+//            return con;
+//        }
+//        //select 파일을 열면 닫기 눌러줘야.. 다른 사람이 그 파일을 수정가능
+//        public static void close(Connection con, PreparedStatement pstmt, ResultSet rs)
+//                throws Exception{
+//            if(rs!=null) rs.close();
+//            if(pstmt!=null) pstmt.close();
+//            if(con!=null) con.close();
+//        }
+//        // insert update delete
+//        public static void close(Connection con, PreparedStatement pstmt) throws Exception{
+//            if(pstmt!=null) pstmt.close();
+//            if(con!=null) con.close();
+//        }
+//    }
+//    // 총 페이지 개수 가져오기
+//    public int getPageCnt() throws Exception {
+//        Connection con = null;
+//        PreparedStatement pstmt = null;
+//        ResultSet rs = null;
+//        try{
+//            con = Board.connect();
+//            pstmt = con.prepareStatement("select " +
+//                    "ceil(count(idx)/5) as cnt " +
+//                    "from board");
+//            rs = pstmt.executeQuery();
+//            if(rs.next())
+//                return rs.getInt("cnt");
+//        }
+//        catch (Exception e){
+//            e.printStackTrace();
+//        }
+//        finally {
+//            Board.close(con,pstmt,rs);
+//        }
+//        return 1;
+//    }
+//
+//    private static void close(Connection con, PreparedStatement pstmt, ResultSet rs) {
+//    }
 
     public boolean doinsert(Board board){
         Connection con = null;

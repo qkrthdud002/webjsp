@@ -10,21 +10,24 @@
 <head>
     <title>Insert</title>
     <link href="css/insert.css" rel="stylesheet">
-    <link href="css/homepage.css" rel="stylesheet">
+<%--    <link href="css/homepage.css" rel="stylesheet">--%>
+    <link href="css/boardNav.css" rel="stylesheet">
+    <link href="css/board.css" rel="stylesheet">
 </head>
 <body>
-<div class="allClass">
-    <%--    <a class="index" href="index.jsp">index</a>--%>
+<%@ include file="boardnav.jsp"%>
+<%--<div class="allClass">--%>
+<%--    &lt;%&ndash;    <a class="index" href="index.jsp">index</a>&ndash;%&gt;--%>
 
-    <a class="select" href="select.jsp" style="height: 38px;">select</a>
+<%--    <a class="select" href="select.jsp" style="height: 38px;">select</a>--%>
 
-    <a class="insert" href="insert.jsp" style="height: 38px;">insert</a>
+<%--    <a class="insert" href="insert.jsp" style="height: 38px;">insert</a>--%>
 
-    <a class="logout" href="logout.jsp" style="height: 38px;">logout</a>
+<%--    <a class="logout" href="logout.jsp" style="height: 38px;">logout</a>--%>
 
-</div>
-<br>
-<hr><br><br>
+<%--</div>--%>
+<%--<br>--%>
+<%--<hr><br><br>--%>
 <%--<h1>insert.jsp</h1>--%>
 <form action="insertproc.jsp">
     <input class="id" type="text" placeholder="name" name="username"/>

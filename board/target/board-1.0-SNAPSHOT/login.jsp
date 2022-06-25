@@ -22,7 +22,7 @@
         <a class="pw">
             <input placeholder="pw" name="password" type="textbox" style="height: 44px; font-size: large;"/>
         </a>
-        <a href="boardindex.jsp" class="loginBtn" style="font-size: large; font-weight : bold;">로그인</a>
+        <input type="submit" value="로그인" class="loginBtn" style="font-size: large; font-weight : bold;"/>
 
     </form>
 </div>
@@ -31,6 +31,7 @@
     %>
 <h1><%=username%>안녕하세요..</h1>
 <a href="logout.jsp">로그아웃</a>
+<%--<a href="boardindex.jsp">로그아웃</a>--%>
 <%
     }
 %>

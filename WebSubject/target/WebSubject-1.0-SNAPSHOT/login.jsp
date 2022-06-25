@@ -22,7 +22,7 @@
         <a class="pw">
             <input placeholder="pw" name="password" type="textbox" style="height: 44px; font-size: large;"/>
         </a>
-        <a href="homepage.jsp" class="loginBtn" style="font-size: large; font-weight : bold;">로그인</a>
+        <input type="submit" href="homepage.jsp" class="loginBtn" style="font-size: large; font-weight : bold;">로그인</input>
 
     </form>
 </div>

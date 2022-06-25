@@ -29,7 +29,7 @@
             내용
             <textarea class="form-control mb-2" rows="15" name="content"></textarea>
             작성자
-            <input class="form-control" type="text" name="name">
+            <input class="form-control" type="text" name="name" value="<%=session.getAttribute("username")%>">
         </div>
         <div class="row">
             <div class="col mt-3" >

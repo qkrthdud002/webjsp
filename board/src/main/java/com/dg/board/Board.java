@@ -1,5 +1,9 @@
 package com.dg.board;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
 //getter setter
 //toString
 //constructor-생성자

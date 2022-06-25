@@ -4,7 +4,7 @@
 <%@ page import="java.util.List" %>
 
 <%
-    String DB_URL = "jdbc:mysql://localhost:3306/123?autoReconnect=true&useUnicode=true&characterEncoding=euc-kr";
+
     String setext = request.getParameter("setext");
     if(setext == null){
         setext ="";
@@ -12,6 +12,12 @@
 
     BoardManager bm = new BoardManager();
     List<Board> list = bm.doselect(setext);
+
+//    String pagenum = request.getParameter("pagenum");
+//    if(pagenum == null) pagenum = "1";
+//    BoardManager bm = new BoardManager();
+//    list = bm.doselect(String.valueOf(Integer.parseInt(pagenum)));
+//    int pagecnt = bm.getPageCnt();
 
 %>
 
@@ -60,6 +66,30 @@
                 <a class="btn" href="boardinsert.jsp">글쓰기</a>
             </div>
         </div>
+<%--        <nav aria-label="Page navigation">--%>
+<%--            <ul class="pagination justify-content-center">--%>
+<%--                <% if( Integer.parseInt(pagenum) == 1) {%>--%>
+<%--                <li class="page-item disabled">--%>
+<%--                        <% } else {%>--%>
+<%--                <li class="page-item">--%>
+<%--                    <% } %>--%>
+<%--                    <a class="page-link"--%>
+<%--                       href="?pagenum=<%=Integer.parseInt(pagenum)-1%>">Previous--%>
+<%--                    </a>--%>
+<%--                </li>--%>
+<%--                <% for(int i=1;i<pagecnt+1; i++) {%>--%>
+<%--                <li class="page-item <%=(Integer.parseInt(pagenum)==i)?"active":""%>">--%>
+<%--                    <a class="page-link" href="?pagenum=<%=i%>"><%=i%></a>--%>
+<%--                </li>--%>
+<%--                <% } %>--%>
+<%--                <li class="page-item <%=(Integer.parseInt(pagenum)==pagecnt)?"disabled":""%>">--%>
+<%--                    <a class="page-link"--%>
+<%--                       href="?pagenum=<%=Integer.parseInt(pagenum)+1%>">--%>
+<%--                        Next--%>
+<%--                    </a>--%>
+<%--                </li>--%>
+<%--            </ul>--%>
+<%--        </nav>--%>
     </div>
 </div>
 </body>
