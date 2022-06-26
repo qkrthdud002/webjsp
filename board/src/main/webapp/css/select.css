@@ -6,7 +6,6 @@ a {
     transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
     display: block;
     margin: 20px auto;
-    /*max-width: 180px;*/
     text-decoration: none;
     border-radius: 4px;
 }
@@ -62,8 +61,6 @@ input.selectBtn {
     -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
     transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
     display: block;
-    /*margin: 20px auto;*/
-    /*max-width: 180px;*/
     text-decoration: none;
     border-radius: 4px;
     margin-left: 880px;
@@ -80,8 +77,6 @@ input.selectBtn:hover {
 }
 
 table {
-    /*margin-right: 50px;*/
-    /*width:70%;*/
     margin-left:15%;
     margin-right:15%;
     border-collapse : collapse;
@@ -108,7 +103,13 @@ td, th{
     width: 50px;
 }
 
-.button.icon-btn{
+.backBtn{
+    transition-duration: 0.4s;
+    margin-left: 285px;
+}
 
+.backBtn:hover{
+    background-color: gray;
+    color: white;
 }
 

@@ -4,9 +4,7 @@
     <title>Homepage</title>
 </head>
 <body>
-<%--<%@ include file="boardnav.jsp"%>--%>
 <head>
-<%--    <link href="css/homepage.css" rel="stylesheet">--%>
     <link href="css/boardNav.css" rel="stylesheet">
     <link href="css/board.css" rel="stylesheet">
 </head>

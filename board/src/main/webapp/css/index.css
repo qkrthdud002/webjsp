@@ -3,7 +3,6 @@
 }
 
 body {
-    /*background-image: url(http://p1.pichost.me/i/11/1344899.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Arial, sans-serif;
@@ -28,15 +27,9 @@ body {
     margin-top: -18px;
     margin-left: -89px;
     text-align: center;
-    /*width: 100px;*/
 }
 
 a {
-    /*-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);*/
-    /*-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);*/
-    /*-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);*/
-    /*-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);*/
-    /*transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);*/
     -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
     -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
     -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
@@ -51,7 +44,6 @@ a {
 }
 
 a.button {
-    /*color: rgba(30, 22, 54, 0.6);*/
     color: rebeccapurple;
     box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
 }
@@ -64,9 +56,7 @@ a.button:hover {
 .login {
     display: block;
     align-items: center;
-    /*display: flex;*/
     text-align: center;
-
 }
 
 .id{
@@ -77,17 +67,3 @@ a.button:hover {
 .pw{
     line-height: 30px;
 }
-
-/*input {*/
-/*    -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);*/
-/*    -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);*/
-/*    -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);*/
-/*    -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);*/
-/*    transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);*/
-/*    display: block;*/
-/*    margin: 20px auto;*/
-/*    max-width: 180px;*/
-/*    text-decoration: none;*/
-/*    border-radius: 4px;*/
-/*    padding: 15px 80px;*/
-/*}*/
